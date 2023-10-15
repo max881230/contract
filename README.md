@@ -13,15 +13,10 @@ cd contract
 
 3.
 ```shell
-git checkout master
-```
-
-4.
-```shell
 forge install
 ```
 
-5.
+4.
 ```shell
 forge test --mc WETH_test -vvvvv
 ```
