@@ -8,15 +8,20 @@ git clone https://github.com/max881230/contract.git
 
 2.
 ```shell
-git checkout master
+cd contract
 ```
 
 3.
 ```shell
-forge install
+git checkout master
 ```
 
 4.
+```shell
+forge install
+```
+
+5.
 ```shell
 forge test --mc WETH_test -vvvvv
 ```
