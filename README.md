@@ -1,13 +1,17 @@
 ## STEPS
 
+
+1.
 ```shell
-1. $ git clone https://github.com/max881230/contract.git
+$ git clone https://github.com/max881230/contract.git 
 ```
 
+2.
 ```shell
-2. $ forge install
+$ forge install
 ```
 
+3.
 ```shell
-3. $ forge test --mc WETH_test -vvvvv
+$ forge test --mc WETH_test -vvvvv
 ```
